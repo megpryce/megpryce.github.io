@@ -13,5 +13,23 @@ p {
 }
 
 header {
-    background-color: 009999
+    background-color: #009999;
+    color: #000000; 
 }
+
+header h1 {
+    font-family: helvetica, arial, sans-serif;
+    font-weight:500; 
+}
+
+header a {
+    color: #aaaaaa;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #ffffff;
+}
+
+footer nav {
+    font-size: 12px; 
