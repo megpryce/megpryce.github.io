@@ -2,24 +2,17 @@
 div.wrapper {
     margin-left: 10%;
     margin-right: 10%;
-    border: 1px;
-    color: blue; 
+    background-color: #FFFFFF;
 }
 
-
 body { 
-    background-color: #FFD4AF;
+    background-color: pink;
     font-size: 16px;
     font-family: helvetica, arial, sans-serif;
 }
 
 p {
     margin-bottom: 16px;
-}
-
-header {
-    background-color: #FFFFFF;
-    color: #000000; 
 }
 
 header h1 {
@@ -39,6 +32,8 @@ header a:hover {
 /* MAIN CONTENT */
 article {
     clear: both;
+    margin-left: 10%;
+    margin-right: 10%;
     padding 0 10px 0 10px;
 }
 
@@ -68,16 +63,22 @@ article a:hover {
     
 aside {
     float: left;
+    margin-top: 5%;
     margin-right: 5%;
     margin-bottom: 10px;
     width: 47.5%;
+}
+
+section {
+    padding-top: 5%;
+    padding-bottom: 2%;
 }
 
 /* PAGE FOOTER */
 footer nav {
     clear: both;
     font-size: 12px;
-    padding: 0 10px 0 10px;
+    padding: 0 10px 0 1px;
 }
 
 footer h6 {
