@@ -71,6 +71,10 @@ aside {
     width: 47.5%
 }
 
+.boxed {
+    border: 1px blue ;
+}
+
 /* PAGE FOOTER */
 footer nav {
     clear: both;
