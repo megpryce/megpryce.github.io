@@ -1,12 +1,34 @@
-* 
 div.wrapper {
     margin-left: 10%;
     margin-right: 10%;
-    background-color: #FFFFFF;
+    border: 3px solid #FF738C;
+    padding :10px 10px; 
+    background: #FFFFFF;
+    border-radius: 25px;
+}
+
+/* unvisited link */
+a:link {
+    color:#7F3A46;
+} 
+
+/* visited link */
+a:visited {
+    color:#7F3A46;
+}
+
+/* mouse over link */
+a:hover {
+    color:#FF738C;
+}
+
+/* selected link */
+a:active {
+    color:#7F3A46;
 }
 
 body { 
-    background-color: pink;
+    background-color: #FFC0CB;
     font-size: 16px;
     font-family: helvetica, arial, sans-serif;
 }
@@ -15,55 +37,51 @@ p {
     margin-bottom: 16px;
 }
 
+nav {
+    border-top: 2px dotted #000000; 
+    border-bottom: 2px dotted #000000;
+    word-spacing: 66px;
+}
+
 header h1 {
+    margin-left: 5%;
+    margin-right: 5%;
     font-family: helvetica, arial, sans-serif;
     font-weight:500;
 }
 
 header a {
-    color: #000000;
-    text-decoration: none;
+    color: #7F3A46;
 }
 
 header a:hover {
-    color: #319CB2;
+    color: #FF738C;
 }
 
 /* MAIN CONTENT */
 article {
     clear: both;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding 0 10px 0 10px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 article h1 {
     color: #000000;
     font-size: 36px;
-    line-height: 44px;
-    margin-top: 4px;
 }
 
 article h2 {
     color: #000000;
     font-size: 24px;
-    line-height: 28px;
     margin-bottom: 4px;
 }
 
 article h3 { 
     font-size: 18px;
-    line-height: 28px;
-}
-
-
-article a:hover {
-    color: #319CB2;
 }
     
 aside {
     float: left;
-    margin-top: 5%;
     margin-right: 5%;
     margin-bottom: 10px;
     width: 47.5%;
@@ -77,16 +95,16 @@ section {
 /* PAGE FOOTER */
 footer nav {
     clear: both;
-    font-size: 12px;
-    padding: 0 10px 0 1px;
+    word-spacing: 50px;
+    font-size: 16px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: helvetica, arial, sans-serif;
 }
 
 footer h6 {
-    padding: 0 10px 0 10px;
-}
-        
-footer a:hover {
-    color: #319CB2;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: helvetica, arial, sans-serif;
+    color: #000000
 } 
-
-        
